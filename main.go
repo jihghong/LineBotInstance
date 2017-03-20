@@ -64,7 +64,7 @@ func callbackHandler(w http.ResponseWriter, r *http.Request) {
 				} else if strings.Contains(message.Text, "算了") {
 					bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage("再下一個命令？")).Do();
 				} else if strings.Contains(message.Text, "pca") {
-					bot.ReplyMessage(event.ReplyToken, linebot.NewImageMessage("https://github.com/jihghong/LineBotInstance/images/pca.PNG", "https://github.com/jihghong/LineBotInstance/images/pca.PNG")).Do();
+					bot.ReplyMessage(event.ReplyToken, linebot.NewImageMessage("https://raw.githubusercontent.com/jihghong/LineBotInstance/master/images/pca.PNG", "https://raw.githubusercontent.com/jihghong/LineBotInstance/master/images/pca.PNG")).Do();
 				} else {
 					bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage("歡迎下次再來")).Do();
 				}
