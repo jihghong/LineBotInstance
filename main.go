@@ -71,7 +71,7 @@ func callbackHandler(w http.ResponseWriter, r *http.Request) {
 			
 			case *linebot.ImageMessage:
 				bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage("哈哈哈！有創意")).Do();
-			｝
+			}
 		}
 	}
 }
