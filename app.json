@@ -1,0 +1,14 @@
+{
+  "name": "LineBotInstance",
+  "description": "Line Bot API instance",
+  "repository": "https://github.com/jihghong/LineBotInstance",
+  "keywords": ["Line", "go", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
